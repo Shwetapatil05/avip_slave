@@ -1,1 +1,2 @@
-# avip_slave
+# spi_avip
+SPI protocol Accelerated VIP 
