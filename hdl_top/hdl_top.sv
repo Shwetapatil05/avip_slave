@@ -7,7 +7,7 @@
 `include "./spi_interface/spi_if.sv"
 `include "./slave_agent_bfm/slave_agent_bfm.sv"
 
-module slave_hdl_top;
+module hdl_top;
 
   initial begin
     $display("HDL_TOP");
