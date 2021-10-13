@@ -3,7 +3,7 @@ all:
 
 compile:
 	vlib work; 
-	vlog -sv ../env/env_top.sv ../../hdl_top/hdl_top.sv
+	vlog -sv ../env/hvl_top.sv ../../hdl_top/hdl_top.sv
 
 simulate:
 	#	vsim -novopt work.ram_tb -do runcmds.do

@@ -1,5 +1,5 @@
 # vsim -novopt work.hvl_top work.hdl_top -c -do "log -r /*; add wave -r /*; run -all;" -wlf waveform.wlf 
-# Start time: 10:38:42 on Oct 13,2021
+# Start time: 11:11:30 on Oct 13,2021
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # //  Questa Sim
 # //  Version 10.6c linux Jul 25 2017
@@ -20,8 +20,8 @@
 # Loading sv_std.std
 # Loading mtiUvm.uvm_pkg
 # Loading work.test_pkg
-# Refreshing /pdtools/work_area/frontend/sahana/avip_slave/hvl_top/sim/work.env_top_sv_unit
-# Loading work.env_top_sv_unit
+# Refreshing /pdtools/work_area/frontend/sahana/avip_slave/hvl_top/sim/work.hvl_top_sv_unit
+# Loading work.hvl_top_sv_unit
 # Loading work.hvl_top
 # Refreshing /pdtools/work_area/frontend/sahana/avip_slave/hvl_top/sim/work.hdl_top
 # Loading work.hdl_top
@@ -65,7 +65,7 @@
 # Slave Agent BFM
 # Slave Driver BFM
 # Slave Monitor BFM
-# UVM_INFO ../env/env.sv(49) @ 0: uvm_test_top.env [uvm_test_top.env] ENV: build_phase
+# UVM_INFO ../env/env.sv(52) @ 0: uvm_test_top.env [uvm_test_top.env] ENV: build_phase
 # UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
 # ---------------------------------------------------------------
 # Name                         Type                   Size  Value
@@ -107,5 +107,5 @@
 # [uvm_test_top.env]     1
 # ** Note: $finish    : /tools/mentor/questasim_10.6c/questasim/linux/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
 #    Time: 0 ns  Iteration: 215  Instance: /hvl_top
-# End time: 10:38:47 on Oct 13,2021, Elapsed time: 0:00:05
+# End time: 11:11:34 on Oct 13,2021, Elapsed time: 0:00:04
 # Errors: 0, Warnings: 1

@@ -28,8 +28,9 @@ package test_pkg;
   `include "../env/virtual_sequencer.sv"
   `include "../env/env.sv"
 
-  `include "test.sv"
+  `include "base_test.sv"
 
-//  `include "slave_agent_config.sv"
-// `include "env_config.sv"
+  // `include "slave_agent_config.sv"
+  // `include "env_config.sv"
+
 endpackage

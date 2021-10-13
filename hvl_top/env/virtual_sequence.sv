@@ -4,7 +4,7 @@
   //--------------------------------------------------------------------------------------------
   // Class: virtual_sequence
   // Description of the class
-  // this class contains the handle of actual sequencer pointing towards them
+  // this class contains transactions
   //--------------------------------------------------------------------------------------------
   class virtual_sequence extends uvm_sequence #(slave_tx);
 
@@ -13,17 +13,10 @@
 
   `uvm_object_utils(virtual_sequence)
 
-  //declaring handles for slave sequencer and environment config
-    
- //   slave_sequencer  s_sqr_h;
   //  env_config e_cfg;
-
-  //declaring virtual sequencer handle
-  // virtual_sequencer v_sqr_h;
 
   //declaring handles for slave extended class
   //  s_seq_1 s_seq_h;
-
 
   //-------------------------------------------------------
   // Externally defined Tasks and Functions
