@@ -1,30 +1,6 @@
 # spi_avip
 SPI protocol Accelerated VIP 
 
-# 
-#   ***********       IMPORTANT RELEASE NOTES         ************
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_NO_DEPRECATED undefined.
-#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
-# 
-#   You are using a version of the UVM library that has been compiled
-#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
-#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
-# 
-#       (Specify +UVM_NO_RELNOTES to turn off this notice)
-# 
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
-# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(217) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
-# UVM_INFO @ 0: reporter [RNTST] Running test base_test...
-# HDL_TOP
-# Slave Agent BFM
-# Slave Driver BFM
-# Slave Monitor BFM
-# UVM_INFO ../env/env.sv(52) @ 0: uvm_test_top.env [uvm_test_top.env] ENV: build_phase
-# UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
-
-
 #----------------------------------------------------------------
 # Name                         Type                   Size  Value
 # ---------------------------------------------------------------
