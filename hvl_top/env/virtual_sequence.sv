@@ -15,7 +15,7 @@
 
   //declaring handles for slave sequencer and environment config
     
- //   slave_sequencer  s_sqr_h;
+  //   slave_sequencer  s_sqr_h;
   //  env_config e_cfg;
 
   //declaring virtual sequencer handle
@@ -57,5 +57,5 @@
 
   endtask:body
 
-`endif
+  `endif
 

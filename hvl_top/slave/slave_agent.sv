@@ -10,7 +10,7 @@
   //register with factory so can use create uvm_method
   //and override in future if necessary
 
-   `uvm_component_utils(slave_agent)
+  `uvm_component_utils(slave_agent)
   //declaring handles for agent config driver monitor and sequencer
 
   slave_driver_proxy s_drv_h;
@@ -64,6 +64,6 @@
   function void slave_agent::connect_phase(uvm_phase phase);
     super.connect_phase(phase);
   endfunction : connect_phase
-
-`endif
+  
+  `endif
 
