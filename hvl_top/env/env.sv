@@ -4,7 +4,7 @@
 //--------------------------------------------------------------------------------------------
 // Class: env
 // Description:
-// Environment contains slave agent and virtuaal sequencer
+// Environment contains slave_agent_top and virtual_sequencer
 //--------------------------------------------------------------------------------------------
 class env extends uvm_env;
 
@@ -13,6 +13,9 @@ class env extends uvm_env;
   //-------------------------------------------------------
   `uvm_component_utils(env)
 
+  //-------------------------------------------------------
+  // Declaring handles for both
+  //-------------------------------------------------------
   slave_agent_top sa_t_h;
   virtual_sequencer v_sqr_h;
 
@@ -39,7 +42,7 @@ endfunction : new
 //--------------------------------------------------------------------------------------------
 // Function: build_phase
 // Description:
-//  Create required ports
+//  Create required components
 //
 // Parameters:
 //  phase - uvm phase
